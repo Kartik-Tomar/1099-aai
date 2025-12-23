@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Bot, User } from "lucide-react";
+import { Bot, User, X } from "lucide-react";
 
 const Message = ({ role, content }) => {
   const isUser = role === "user";
+  const [modalImage, setModalImage] = useState(null);
 
   return (
     <div
@@ -182,8 +183,9 @@ const Message = ({ role, content }) => {
                 img: (props) => (
                   <img
                     {...props}
-                    className="rounded-lg max-h-64 object-contain my-1.5 border border-gray-200"
+                    className="rounded-lg max-h-64 object-contain my-1.5 border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
                     alt={props.alt || "Image"}
+                    onClick={() => setModalImage(props.src)}
                   />
                 ),
                 // Links
@@ -215,6 +217,28 @@ const Message = ({ role, content }) => {
           </div>
         </div>
       </div>
+
+      {/* Image Modal */}
+      {modalImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
+          onClick={() => setModalImage(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+            onClick={() => setModalImage(null)}
+            aria-label="Close modal"
+          >
+            <X className="w-8 h-8" />
+          </button>
+          <img
+            src={modalImage}
+            alt="Zoomed view"
+            className="max-w-full max-h-full object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 };
