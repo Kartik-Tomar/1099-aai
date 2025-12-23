@@ -21,7 +21,7 @@ services:
         sync: false
 
   # Frontend Service
-  - type: static
+  - type: web
     name: 1099-frontend
     env: static
     rootDir: client
