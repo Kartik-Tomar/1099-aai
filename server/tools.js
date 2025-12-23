@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const GUIDE_DIR = path.join(__dirname, "../1099_processing_users_guide");
+const GUIDE_DIR = path.join(__dirname, "./1099_processing_users_guide");
 
 const tools = {
   list_guide_files: () => {
