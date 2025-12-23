@@ -1,0 +1,56 @@
+# Table of Contents
+
+- 1099 PROCESS CHECKLIST - "1099_processing_users_guide/1099_process_checklist_and_reminders.md"
+  - checklist as a guide to prepare 1099-NEC and 1099-MISC forms
+- REMINDERS - "1099_processing_users_guide/1099_process_checklist_and_reminders.md"
+  - Securing Sensitive Data
+  - Important Dates
+  - Summary of Withholding Reporting Changes
+- CHAPTER 1: WITHHOLDING PROCESSING INTRODUCTION - "1099_processing_users_guide/C1_WITHHOLDING_PROCESSING_INTRODUCTION.md"
+  - Withholding Income
+  - 1099 Withholding Types and Classes
+  - 1099 Withholding Amounts
+  - Examples of New 1099 Withholding Forms Beginning CY2022
+- CHAPTER 2: SETUP/REVIEW - "1099_processing_users_guide/C2_SETUP_REVIEW.md"
+  - Running BOR_AP_1099_WTHD_SENT_INCOMPL
+  - Setting Up/Reviewing Report Control Information (Required)
+- CHAPTER 3: 1099 TASKS THROUGHOUT THE YEAR - "1099_processing_users_guide/C3_1099_TASKS_THROUGHOUT_THE_YEAR.md"
+  - Entering Withholding Suppliers
+  - Entering 1099 Withholding Vouchers
+  - Posting Payments from Withholding Vouchers
+- CHAPTER 4: POST 1099 WITHHOLDINGS - "1099_processing_users_guide/C4_POST_1099_WITHHOLDINGS.md"
+- CHAPTER 5: REVIEW WITHHOLDING SUPPLIERS & PAYMENTS - "1099_processing_users_guide/C5_REVIEW_WITHHOLDING_SUPPLIERS_PAYMENTS.md"
+  - Running the BOR_AP_1099_Suppliers Query
+  - 1099 Vouchers by Supplier Inquiry
+  - Withhold Payment Inquiry
+  - Supplier Balance by Class Inquiry
+  - BOR_AP_1099_PMTS Inquiry
+  - BOR_AP_1099_JE Inquiry
+  - BOR_AP_1099_NONRPT_CONSISTENT Inquiry
+  - BOR_AP_1099_MISMATCHED Inquiry
+  - Withholding Balances Control Report
+  - BOR_AP_1099_Adjust Inquiry
+  - BORRY010 1099 Reportable Transactions Report
+- CHAPTER 6: CORRECTIONS AND ADJUSTMENTS OF 1099 ITEMS - "1099_processing_users_guide/C6_CORRECTIONS_AND_ADJUSTMENTS_OF_1099_ITEMS.md"
+  - Withholding Invoice Line Update (Update VoucherLine Withholding)
+  - Running Withholding Update Process
+  - Manual Adjustments
+- CHAPTER 7: RUNNING WITHHOLDING REPORT POST - "1099_processing_users_guide/C7_RUNNING_WITHHOLDING_REPORT_POST.md"
+  - Retrieving the IRS Tax File
+- CHAPTER 8: REVIEW WITHHOLDING REPORTABLE TRANSACTIONS - "1099_processing_users_guide/C8_REVIEW_WITHHOLDING_REPORTABLE_TRANSACTIONS.md"
+  - BORRY010 1099 Reportable Transactions Report
+  - 1099 Withhold To Send Detail Report
+  - BOR_AP_1099_SND_DTL_TOT Query
+- CHAPTER 9: PRODUCING WITHHOLDING COPY B REPORTS - "1099_processing_users_guide/C9_PRODUCING_WITHHOLDING_COPY_B_REPORTS.md"
+  - Run Print 1099 Copy B Process (APCOPYB) For 1099-NEC and 1099-MISC
+  - Reviewing and Printing 1099 Copy B Reports
+- CHAPTER 10: COMPLETING 1099 PROCESSING FOR THE YEAR - "1099_processing_users_guide/C10_COMPLETING_1099_PROCESSING_FOR_THE_YEAR.md"
+  - Sending the IRS_001. Txt file
+  - Running the Withhold Sent (WTHD_SNT) Process
+  - Creating a Correction File
+  - Creating a Replacement File
+- APPENDIX A: WEBSITE LINKS - "1099_processing_users_guide/APPENDIX_A_AND_B_AND_C.md"
+- APPENDIX B: REVIEWING ANNUAL CALENDAR AND TYPES SETUP - "1099_processing_users_guide/APPENDIX_A_AND_B_AND_C.md"
+  - Reviewing the A1 Annual Calendar (Not Required by Institution)
+  - Reviewing Withholding Types Report (Optional)
+- APPENDIX C: 1099 WITHHOLDING REPORTING PROCESS OVERVIEW - "1099_processing_users_guide/APPENDIX_A_AND_B_AND_C.md"
