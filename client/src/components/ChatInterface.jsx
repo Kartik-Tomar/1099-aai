@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
-import { sendMessage } from "../services/api";
+import { sendMessage, UnauthorizedError } from "../services/api";
 import Message from "./Message";
 import { Send, LogOut } from "lucide-react";
 
 const SUGGESTED_QUESTIONS = [
   "What is the checklist for 1099 processing?",
   "How to start 1099 processing?",
-  "Show me the 1099 tasks calendar.",
+  "Create calender reminder for 1099 processes thought the year",
 ];
 
 const ChatInterface = ({ token, onLogout }) => {
@@ -45,6 +45,14 @@ const ChatInterface = ({ token, onLogout }) => {
       setMessages((prev) => [...prev, aiMsg]);
     } catch (error) {
       console.error(error);
+
+      // Handle 401 Unauthorized - logout user without showing error in chat
+      if (error instanceof UnauthorizedError) {
+        onLogout();
+        return;
+      }
+
+      // For other errors, show in chat
       const errorMsg = {
         role: "model",
         content: `**Error:** ${error.message}`,

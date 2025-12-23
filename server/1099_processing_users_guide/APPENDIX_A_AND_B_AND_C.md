@@ -34,12 +34,12 @@ Below are step by step instructions on how to run the Detail Calendar Report.
 11. Click the **Save** button.
 12. Click **Run**.
 13. Run the `XMLP: Detail Calendars Report (FSX0002)`
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p83_Click_OK.__0AAfter_the_process_completes__navigate_t_sdfgog.png)
+    ![Run the XMLP: Detail Calendars Report (FSX0002) example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p83_Click_OK.__0AAfter_the_process_completes__navigate_t_sdfgog.png)
 14. Click **OK**.
 15. After the process completes, navigate to the report manager to view the `FSX0002-FSX0002.pdf`.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p83_Example_below_ikj3z8.png)
+    ![navigate to the report manager example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p83_Example_below_ikj3z8.png)
     Example below:
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288098/p83_Example_below_1_fnxxgl.png)
+    ![FSX0002-FSX0002.pdf view example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288098/p83_Example_below_1_fnxxgl.png)
 
 ## Reviewing Withholding Types Report (Optional)
 
@@ -83,4 +83,4 @@ The `APX7020` Report prints all Withholding Types and Classes. There are seven W
 
 # APPENDIX C: 1099 WITHHOLDING REPORTING PROCESS OVERVIEW
 
-![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p86_APPENDIX_C_1099_WITHHOLDING_REPORTING_PROCESS_OVER_q4ci2v.png)
+![1099 WITHHOLDING REPORTING PROCESS OVERVIEW](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p86_APPENDIX_C_1099_WITHHOLDING_REPORTING_PROCESS_OVER_q4ci2v.png)

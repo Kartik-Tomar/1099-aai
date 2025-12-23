@@ -47,7 +47,7 @@ Below are step by step instructions on how to perform Withholding Invoice Line U
 6. Select the **Update Withholdings** link.
 7. Find an Existing Value or Add a new Value for the **Run Control ID**.
 8. On the Withhold Update Request page, select the appropriate **Process Option** depending on the method used to make the adjustments. If the Supplier Withholding Update method was used, select **Process Only Supplier Updates**. If the Voucher Line Withholding Update method was used, select **Process Only Voucher Lines**.
-   ![p51_Withholding_Update_method_was_used__select_Process](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288119/p51_Withholding_Update_method_was_used__select_Process_scpqcu.png)
+   ![Withhold Update Request page, select the appropriate Process Option example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288119/p51_Withholding_Update_method_was_used__select_Process_scpqcu.png)
 9. After the process completes successfully, return to the Update Supplier Withholdings or Update Voucher Line Withholdings pages to confirm updates processed. On the New Withhold Details tab for both pages, the Criteria should show “Updated” for those items changed.
    > [!NOTE] > **Note 1**: This process may take several minutes to run. Users cannot select Business Unit on the Run Control Page. When this process runs it updates for all business units.
    >
@@ -92,9 +92,9 @@ Below are step by step instructions on how to adjust withholding manually.
     - **Jurisdiction**: `FED`
     - **Class**
     - **Rule**
-      ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288118/p54_1099_Processing__0AUser_Guide_z2agse.png)
+      ![Withhold Adjustments page, enter Main Information example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288118/p54_1099_Processing__0AUser_Guide_z2agse.png)
 12. On the **Transaction Info** tab enter amounts and dates. Under “Basis Amt,” enter the amount on which the Withholding is calculated. This is the basis amount reported to the Withholding entity for this payment and is typically the gross amount of the voucher.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288116/p55_The_Liability_Amount_displays_the_amount_of_backup_x4cynu.png)
+    ![Withhold Adjustments page, enter Main Transaction Info example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288116/p55_The_Liability_Amount_displays_the_amount_of_backup_x4cynu.png)
 13. The **Liability Amount** displays the amount of backup withholding retained to remit to the withholding entity.
     The **Paid Amount** displays the amount of the withholding liability paid to the withholding entity.
     > [!NOTE]

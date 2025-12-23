@@ -100,9 +100,9 @@ As determined by the IRS, the minimum Withholding Reporting Amounts for each Wit
 **Example 1099-NEC Form Beginning CY2022:**
 Example of 1099-NEC Form here.
 
-![Extra Image from Page 12](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288155/p12_Example_of_1099-NEC_Form_here.__0Aample_1099-MISC_Fo_stv81r.png)
+![Example of 1099-NEC Form](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288155/p12_Example_of_1099-NEC_Form_here.__0Aample_1099-MISC_Fo_stv81r.png)
 
 **Example 1099-MISC Form beginning CY2022:**
 Example of 1099-MISC Form here.
 
-![Extra Image from Page 12](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288149/p12_1099_Processing__0AUser_Guid_0A__0AExample_of_1099-MISC__x64f7x.png)
+![Example of 1099-MISC Form](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288149/p12_1099_Processing__0AUser_Guid_0A__0AExample_of_1099-MISC__x64f7x.png)

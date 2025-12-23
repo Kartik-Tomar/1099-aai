@@ -20,7 +20,7 @@ Below are step by step instructions on how to run the `BORRY010` 1099 Reportable
 7. Select the previously saved **Run Control**.
 8. The report parameters include **Control SetID**, **Control ID** and **Calendar Year**.
    Users can specify a range of Social Security Numbers, if needed. To run the report on all Social Security Numbers, leave those fields blank. Users can print the Supplier mailing addresses on the report if needed.
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288107/p64_Select_Run_and_then_OK_to_run_the_process.___0AClick_wtuzbi.png)
+   ![1099 Reportable Transactions page, add details example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288107/p64_Select_Run_and_then_OK_to_run_the_process.___0AClick_wtuzbi.png)
 9. Select **Run** and then **OK** to run the process.
 10. Click the **Process Monitor** link.
 11. Use the Process Monitor to verify the process runs to **Success**. Locate this report in the Report Manager.
@@ -47,10 +47,10 @@ Below are step by step instructions on how to run the 1099 Withhold to Send Deta
    - **Fiscal Year**: This is the Withholding reporting year.
 
    For CY2020 and beyond, there are no choices for separating NEC and MISC:
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p66_For_CY2019_and_before__there_are_options_for_separ_ejbtha.png)
+   ![1099 to Send Detail page, add parameters example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p66_For_CY2019_and_before__there_are_options_for_separ_ejbtha.png)
 
    For CY2019 and before, there are options for separating NEC and MISC:
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p66_1099_Processing__0AUse_0Aegents_of_the_University_Syst_g6rxat.jpg)
+   ![1099 to Send Detail page, options for NEC and MISC example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p66_1099_Processing__0AUse_0Aegents_of_the_University_Syst_g6rxat.jpg)
 
 10. Select the **Run** button.
 11. Click **OK** to run the process.

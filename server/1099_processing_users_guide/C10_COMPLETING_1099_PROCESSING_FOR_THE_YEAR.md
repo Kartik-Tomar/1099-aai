@@ -44,7 +44,7 @@ Below are step by step instructions on how to run the Withhold Sent process.
    - **IRS Options**: Leave these settings as defaulted. The box should not be selected. The Withhold Sent Option should remain set to All.
 
    Example after CY2020:
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288103/p76__WTHD_SNT__process_and_click_OK.__0Ahe_process_runs__n1lm8d.png)
+   ![Withholding link page, Enter parameters example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288103/p76__WTHD_SNT__process_and_click_OK.__0Ahe_process_runs__n1lm8d.png)
 
 9. Select “WTHD_SNT” process and click **OK**.
 10. Once the process runs to **Success** and is **Posted**, then Withholding processing for the year is officially complete.
@@ -76,16 +76,16 @@ Below are step by step instructions on how to create a correction file.
 8. Select the **1099 Reports** link.
 9. Select the **Withhold 1099 Report Job** link.
 10. After the process runs again, select the **Original/Correction** option on the Withhold 1099 Report Post page.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288102/p78_lect__Specify_Supplier_s__in_the_Supplier_Select__tcyzpz.png)
+    ![1099 Reports page, select the Original/Correction option example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288102/p78_lect__Specify_Supplier_s__in_the_Supplier_Select__tcyzpz.png)
 11. Select “Specify Supplier(s)” in the **Supplier Select Option**. Next, add the supplier(s) that were adjusted in Step 2.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288101/p78_Click_the_Save_button.__0ASelect_Run.__0ARun_the_Withh_ougnuo.png)
+    ![Select “Specify Supplier(s)” in the Supplier Select Option example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288101/p78_Click_the_Save_button.__0ASelect_Run.__0ARun_the_Withh_ougnuo.png)
 12. Click the **Save** button.
 13. Select **Run**.
 14. Run the Withhold 1099 Report Post.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p78_1099_Processing__0Ants_of_the_University_System_of_G_hp1eos.png)
+    ![Withhold 1099 Report Post example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p78_1099_Processing__0Ants_of_the_University_System_of_G_hp1eos.png)
 15. Save the `IRS_001.TXT` file.
 16. Run Copy B process for selected suppliers that were adjusted in Step 2.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p79_Save_the_Copy_B_reports.__0ASend_the_corrected_IRS_0_ngamef.png)
+    ![Run Copy B process for selected suppliers, example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288099/p79_Save_the_Copy_B_reports.__0ASend_the_corrected_IRS_0_ngamef.png)
 17. Save the Copy B reports.
 18. Send the corrected `IRS_001.TXT` correction file to the IRS.
 19. After the IRS accepts the correction file, run the Withholding Sent File process again.

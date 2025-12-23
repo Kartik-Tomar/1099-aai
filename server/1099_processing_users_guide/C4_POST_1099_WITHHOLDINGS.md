@@ -17,11 +17,11 @@ Below are step by step instructions on how to post withholdings:
 7. Select or Add a new **Run Control ID** for Post Withholdings.
 8. Click on **Search**. The system navigates to the Post Withholdings page.
 9. Navigate to **Post Option** and select “Post by Business Unit.”
-   ![Extra Image from Page 34](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288125/p34_Select_Through_Date._This_is_usually_December_31_o_za5k8u.png)
+   ![Withholdings Transaction page, post option example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288125/p34_Select_Through_Date._This_is_usually_December_31_o_za5k8u.png)
 10. Select **Through Date**. This is usually December 31 of the 1099 Withholding reporting year.
 11. Select **Business Unit**. Remember to also select the B business unit if withholding payments were made from the B business unit.
 12. Select **Save** and then select **Run**.
 13. Select **Withholding Posting** (`AP_WTHD`) then click **OK** to run the process.
-    ![Extra Image from Page 34](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288124/p34_1099_Processing__0AUser_Guide__0A__0AUse_the_Process_Mon_fv4wpk.png)
+    ![Select Withholding Posting example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288124/p34_1099_Processing__0AUser_Guide__0A__0AUse_the_Process_Mon_fv4wpk.png)
 14. Use the **Process Monitor** to verify the process runs to **Success**.
 15. Next, review the withholding supplier payments for accuracy and completeness. Proceed to the next step in processing Withholding - **Chapter 5: Review Withholding Payments**.

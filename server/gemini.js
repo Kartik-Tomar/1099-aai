@@ -30,7 +30,7 @@ const model = genAI.getGenerativeModel({
         },
         {
           name: "create_calendar_event",
-          description: "Create a Google Calendar event link.",
+          description: "Create a Google Calendar event link with support for one-time and recurring events.",
           parameters: {
             type: "OBJECT",
             properties: {
@@ -45,7 +45,12 @@ const model = genAI.getGenerativeModel({
               date: {
                 type: "STRING",
                 description:
-                  "Date of the event in YYYYMMDD format (e.g. 20250131)",
+                  "Date of the event in YYYYMMDD format (e.g. 20250131) or YYYYMMDDTHHMMSSZ for specific time (e.g. 20250131T100000Z)",
+              },
+              recurrence: {
+                type: "STRING",
+                description:
+                  "Optional recurrence rule for repeating events. Can be a JSON string representing an object with properties: frequency (DAILY/WEEKLY/MONTHLY/YEARLY), interval (number), count (number of occurrences), until (end date YYYYMMDD), byDay (array like ['MO','WE','FR']), byMonthDay (day number), byMonth (month number). Example: '{\"frequency\":\"WEEKLY\",\"byDay\":[\"MO\",\"WE\"],\"count\":12}' for every Monday and Wednesday, 12 times. Or a direct RRULE string like 'FREQ=WEEKLY;INTERVAL=1;COUNT=10;BYDAY=MO,WE,FR'",
               },
             },
             required: ["title", "date"],
@@ -92,7 +97,7 @@ async function handleChat(userMessage, history = []) {
         role: "user",
         parts: [
           {
-            text: "System Prompt: You are a helpful 1099 Processing Assistant. You have access to a detailed user guide via tools. Always check the guide files to answer user questions accurately. If a user asks about a specific topic, find the relevant file and read it. If the user wants to schedule a task, use the calendar tool. The guide images are hosted on Cloudinary, and the links are embedded in the markdown files. When you read a file, you will see the image links. Display them to the user if relevant.",
+            text: "System Prompt: You are a helpful 1099 Processing Assistant. You have access to a detailed user guide via tools. Always check the guide files to answer user questions accurately. If a user asks about a specific topic, find the relevant file and read it. And explain in details with all the images.If the user wants to schedule a task, use the calendar tool. The guide images are hosted on Cloudinary, and the links are embedded in the markdown files. When you read a file, you will see the image links. Display them to the user if relevant.",
           },
         ],
       },

@@ -33,7 +33,7 @@ Below are step by step instructions on how to run process:
 8. Once the information above is entered, click the **Save** button.
 9. Click the **Run** button.
 10. Click the check box for the **Print 1099 Copy B**. Click **OK** to continue. The system navigates to the 1099 Report Post/Report/Copy B page.
-    ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p71_PRODUCING_WITHHOLDING_COPY_B_REPORTS_step10_pmbfvt.png)
+    ![Click the check box for the Print 1099 Copy B example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288100/p71_PRODUCING_WITHHOLDING_COPY_B_REPORTS_step10_pmbfvt.png)
 11. Click the **Process Monitor** link.
 12. Use the Process Monitor to verify the process runs to **Success**.
 13. See Reviewing and Printing 1099 Copy B Reports on page 70.
@@ -51,14 +51,10 @@ Below are step by step instructions on how to review and print Copy B Reports.
 5. Select the **1099 Reports** link.
 6. Click on the **Administration** tab.
 7. For the 1099-MISC Copy B’s, click on `APX1099CT` - `APX1099CT.pdf` link. Download the pdf file and save to a secure location.
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p72_the_Administration_tab.___0A1099-MISC_Copy_B_s__clic_jc4a5h.png)
+   ![Report Manager page, download pdf example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288106/p72_the_Administration_tab.___0A1099-MISC_Copy_B_s__clic_jc4a5h.png)
 8. For the 1099-NEC Copy B’s, click on `APX1099N` - `APX1099N.pdf` link.
+   ![Report Manager page, 1099-NEC Copy B’s download pdf example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288104/p73_ITS_strongly_recommends_users_review_1099-MISC_and_ycyyla.png)
 
-   > [!IMPORTANT]
-   > ITS strongly recommends users review 1099-MISC and 1099-NEC Copy B forms before printing them. Users can compare Copy B forms with the `BORRY010`–Reportable Transactions Report, which prints in TIN order. Also, users can compare the Copy B forms to the 1099 Withholding to Send Detail Report, which prints in Supplier ID order.
-
-   ![](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288104/p73_ITS_strongly_recommends_users_review_1099-MISC_and_ycyyla.png)
-
-9. Compare the number of Copy B forms printed with the number shown in the `IRS_001.TXT` file as part of the finalization process.
+9. ITS strongly recommends users review 1099-MISC and 1099-NEC Copy B forms before printing them. Users can compare Copy B forms with the `BORRY010`–Reportable Transactions Report, which prints in TIN order. Also, users can compare the Copy B forms to the 1099 Withholding to Send Detail Report, which prints in Supplier ID order. Compare the number of Copy B forms printed with the number shown in the `IRS_001.TXT` file as part of the finalization process.
 10. After reviewing the Copy B forms, download the forms to a secure location on a computer and then print them using Adobe Reader so the Copy B forms print correctly. ITS recommends printing one form to test with the mailing (window) envelope. Depending on printer settings, printing directly from the PeopleSoft browser window may be the best option.
 11. After printing, mail the Copy B forms to Suppliers.

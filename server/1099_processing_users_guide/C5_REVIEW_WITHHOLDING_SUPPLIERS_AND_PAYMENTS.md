@@ -210,13 +210,13 @@ Below are step by step instructions on how to run the `BORRY010` 1099 Reportable
 6. Select the **1099 Reportable Transactions** link.
 7. Select or create a new **Run Control**.
 8. The report parameters include **Control SetID**, **Control ID** and **Calendar Year**. Users can specify a range of Social Security Numbers, if needed. To run the report on all Social Security Numbers, leave those fields blank. Users can print the Supplier mailing addresses on the report if needed.
-   ![Extra Image from Page 47](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288123/p47_ect_Run_and_then_OK_to_run_the_process.___0Ack_the_P_uystpe.png)
+   ![1099 Reportable Transactions, report parameters example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288123/p47_ect_Run_and_then_OK_to_run_the_process.___0Ack_the_P_uystpe.png)
 9. Select **Run** and then **OK** to run the process.
 10. Click the **Process Monitor** link.
 11. Use the Process Monitor to verify the process runs to **Success**. Locate this report in the Process Monitor.
 12. The completed report will list each reportable Supplier, along with their TIN and Supplier ID as shown below. For each Supplier, a list of the payments and vouchers marked as withholding are displayed along with their amounts subtotaled by Withholding Class.
 
-![Extra Image from Page 48](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288120/p48_The_calculated_reportable_amount_must_meet_the_min_f4buhq.png)
+![1099 Reportable Transaction report meeting minimum amount example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288120/p48_The_calculated_reportable_amount_must_meet_the_min_f4buhq.png)
 
 The calculated reportable amount must meet the minimum for that Withholding Class to be reported.
 

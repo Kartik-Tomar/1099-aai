@@ -23,17 +23,17 @@ To report Withholding Information, users must set up each supplier in the system
    - **Classification**: Choose “Federal” for corporate Suppliers. For individuals, choose “Individual/SoleProprietor.”
 3. Also, newly created Suppliers save as “Unapproved” and must be approved by another authorized user. For more information on this process, see **SP.020.031 – Approving Suppliers**.
 4. On the **Identifying Information** tab, select the **Withholding** checkbox. This turns on the Withholding flag in the system as shown below.
-   ![Extra Image from Page 23](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288136/p23_1099_Processing__0AUser_Guide__0ARegents_of_the_Unive_vypslu.png)
+   ![Adding a Supplier form Identifying Information tab example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288136/p23_1099_Processing__0AUser_Guide__0ARegents_of_the_Unive_vypslu.png)
 5. Under the **Additional ID Numbers** group box, enter the **Tax Identification Number (TIN)**. At this point, it is helpful to check to see if there is a duplicate supplier in the system with the same name or TIN.
    ITS recommends users investigate to see if the Supplier already exists or if there is an incorrect name or TIN in the system. For more information on this process, see **SP.020.012 – Searching Suppliers Based on Criteria**.
    > [!WARNING]
    > If a duplicate Supplier exists, users receive a warning indicating a potential duplicate exists. However, this warning does not prevent users from adding this supplier into the system.
 6. On the **Address** tab, enter the Supplier’s main address, Supplier’s email address and phone information. If an alternate payment/withholding name is needed to print on the supplier check and Copy B’s, navigate to the **Payment/Withholding Alt Names** group box and enter the alternate information.
    If information is entered into the Payment/Withholding Alt Names group box, the system generates payments for the location associated with this address and the system uses the alternate name information on the payment forms. Also, if users enter an alternate withholding name, the system uses this name on withholding reports instead of the name specified on the Identifying Information page.
-   ![Extra Image from Page 25](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288135/p25_1099_Processing__0AUser_Guide___v2024.1_lj6zvi.png)
+   ![Adding a Supplier form Address tab example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288135/p25_1099_Processing__0AUser_Guide___v2024.1_lj6zvi.png)
 7. On the **Location** tab, enter a **MAIN** location as the default location. The Withholding Rules eventually associated with this supplier are stored under the Location.
    However, before entering the Withholding information, first save the Supplier. Once the supplier is saved, users receive a warning indicating the withholding information was not entered. Click **OK** to clear those warnings. After saving the Supplier, the next step is to add the withholding information for this Supplier by selecting the **1099** link as seen below.
-   ![Extra Image from Page 26](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288132/p26_next_step_is_to_add_the_withholding_information_fo_sc50tc.png)
+   ![Adding a Supplier form Location tab example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288132/p26_next_step_is_to_add_the_withholding_information_fo_sc50tc.png)
 8. On the **Withholding Supplier Information** page, enter the following information for the Supplier under **1099 Information**:
    - **Entity**: `IRS`
    - **Type**: `1099M` or `1099N` (DO NOT CHOOSE ANY OTHER TYPE)
@@ -45,7 +45,7 @@ To report Withholding Information, users must set up each supplier in the system
    - **1099 Status**: This status should be “RPT.” GeorgiaFIRST institutions report Withholdings only.
 9. For each Withholding class that applies to the Supplier, insert an additional row by clicking the plus (+) button.
    _For example, if the Supplier has a Withholding Voucher in which “non-employee compensation” (1099N Class 01) applies and another Withholding Voucher in which “Prizes and Awards” (1099M Class 01) applies, then users must have each type and class set up for that Supplier._
-   ![Extra Image from Page 27](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288131/p27_1099_Processing__0AUser_Guide___v_0Aoard_of_Regents_of_y3lgni.png)
+   ![Withholding Supplier Information page adding row example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288131/p27_1099_Processing__0AUser_Guide___v_0Aoard_of_Regents_of_y3lgni.png)
 10. Under **1099 Reporting Information**, select the following:
     - **Entity**: `IRS`
     - **Address**: Supplier Address
@@ -71,7 +71,7 @@ Below are step by step instructions on how to add a Withholding Voucher.
 11. When ready to verify or edit the withholding information for the voucher, select the **Withholding** link in the header. The system navigates to the to the Withholding Information page.
     > [!IMPORTANT]
     > If there is not a withholding link available, then the supplier was not properly set up in the system as a Withholding Supplier. Remember, the supplier needs to be flagged as a Withholding Supplier and have the withholding information set up for them.
-    > ![Extra Image from Page 29](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288130/p30_Much_of_the_information_on_the_Withholding_page_co_rx1ppk.png)
+    > ![select the Withholding link example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288130/p30_Much_of_the_information_on_the_Withholding_page_co_rx1ppk.png)
 12. Much of the information on the Withholding page comes from the supplier information entered when the supplier was created. For each voucher line, users can edit withholding information.
 13. Select whether the voucher line is withholding applicable or not. The **Withholding Applicable** checkbox indicates the payment for the voucher line will be included on the 1099-NEC/MISC form issued for the Supplier. However, if users deselect the Withholding Applicable checkbox, the amount on that line will not be included on the 1099-NEC/MISC form.
 14. Under **Withholding Details**, verify the following fields the Entity default to the categories listed below:
@@ -79,7 +79,7 @@ Below are step by step instructions on how to add a Withholding Voucher.
     - **Type**: `1099M` or `1099N` (DO NOT CHOOSE ANY OTHER TYPE)
     - **Jurisdiction**: `FED`
       Users can change the Class if needed to match the purpose of the voucher. However, if users change the Class on this page, the new Class must be added to the Withholding Supplier if it is not already there. Users can use the Applicable checkbox to deselect the corresponding Entity/Type/Class combination, if needed.
-      ![Extra Image from Page 31](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288127/p31_Once_users_verify_and_edit_the_Withholding_Informa_erjebb.png)
+      ![Withholding Details verification example](https://res.cloudinary.com/ddvcsl4ya/image/upload/v1766288127/p31_Once_users_verify_and_edit_the_Withholding_Informa_erjebb.png)
 15. Once users verify and edit the Withholding Information on the voucher, click the **Save** button.
 16. Perform regular processing on all vouchers, including budget checking and posting.
 
