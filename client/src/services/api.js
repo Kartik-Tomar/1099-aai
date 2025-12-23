@@ -1,4 +1,7 @@
-const API_URL = "http://localhost:3000/api";
+// Use environment variable for production, localhost for development
+const API_URL = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL}/api`
+  : "http://localhost:3000/api";
 
 export const login = async (userId, password) => {
   const response = await fetch(`${API_URL}/login`, {
